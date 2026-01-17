@@ -1,0 +1,16 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #f6f9fc, #e8f0fe);
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.App h1 {
+  color: #333;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,25 @@
+/* Global */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #000000;  /* Pure black background */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Make all headings, paragraphs, spans, and placeholders white */
+h2, h3, p, span, input::placeholder {
+  color: #ffffff;  /* White text for black background */
+}
+
+/* Slightly lighter white for list items */
+ul li span {
+  color: #dddddd;
+}
+
+/* Dashboard no activity text */
+.card p {
+  color: #cccccc;
+}
